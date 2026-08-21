@@ -25,3 +25,8 @@ window.addEventListener("scroll", () => {
         navbar.classList.remove("scrolled");
     }
 });
+function toggleMenu() {
+    const menu = document.getElementById("nav-menu");
+
+    menu.classList.toggle("active");
+}

@@ -662,3 +662,76 @@ button:hover {
     opacity: 1;
     transform: translateY(0);
 }
+/* =========================
+   MOBILE NAVBAR
+========================= */
+
+.menu-toggle {
+    display: none;
+
+    background: none;
+    border: none;
+
+    color: white;
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+/* PHONE */
+
+@media (max-width: 800px) {
+
+    nav {
+        padding: 0 20px;
+        position: sticky;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+
+        position: absolute;
+
+        top: 70px;
+        left: 0;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        gap: 0;
+
+        background: rgba(5, 8, 22, 0.97);
+
+        backdrop-filter: blur(10px);
+
+        padding: 10px 0;
+
+        border-bottom: 1px solid rgba(0, 170, 255, 0.2);
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+
+        padding: 15px;
+
+        font-size: 17px;
+    }
+
+    nav ul li a:hover {
+        background: rgba(0, 170, 255, 0.08);
+    }
+}
