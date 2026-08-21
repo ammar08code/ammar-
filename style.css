@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: hwb(0 0% 100%);
+    background: linear-gradient(135deg, #050816, #0a1025, #111a3a);
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -151,4 +151,101 @@ button:hover {
     color: #bbb;
     line-height: 1.6;
     margin-bottom: 25px;
+}
+/* =========================
+   HERO SECTION
+========================= */
+
+#home {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    text-align: left;
+    gap: 80px;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.home-content h1 {
+    font-size: 75px;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.home-content h1 span {
+    color: #00aaff;
+}
+
+.home-content h2 {
+    font-size: 28px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 600px;
+    font-size: 19px;
+    line-height: 1.8;
+    color: #999;
+    margin-bottom: 35px;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.main-button,
+.secondary-button {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.main-button {
+    background-color: #00aaff;
+    color: white;
+}
+
+.main-button:hover {
+    transform: translateY(-4px);
+}
+
+.secondary-button {
+    border: 1px solid #555;
+    color: white;
+}
+
+.secondary-button:hover {
+    background-color: #222;
+    transform: translateY(-4px);
+}
+
+/* PROFILE IMAGE */
+
+.home-image {
+    flex: 0 0 350px;
+}
+
+.image-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #00aaff;
+    box-shadow: 0 0 40px rgba(0, 170, 255, 0.35);
+}
+
+.image-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
