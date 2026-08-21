@@ -637,3 +637,17 @@ button:hover {
 
     box-shadow: 0 10px 30px rgba(0, 170, 255, 0.15);
 }
+/* =========================
+   SCROLL ANIMATION
+========================= */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
