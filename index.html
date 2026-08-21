@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>AMMAR's Website</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -10,11 +14,12 @@
 
     <!-- NAVBAR -->
     <nav>
-        <h2>AMMAR HARITH </h2>
+        <h2>AMMAR</h2>
 
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -24,39 +29,44 @@
     <!-- HOME -->
     <section id="home">
 
-    <div class="home-content">
+        <div class="home-content">
 
-        <p class="small-text">WELCOME TO MY WORLD</p>
+            <p class="small-text">WELCOME TO MY WORLD</p>
 
-        <h1>
-            Hi, I'm <span>AMMAR</span>
-        </h1>
+            <h1>
+                Hi, I'm <span>AMMAR</span>
+            </h1>
 
-        <h2>Student & Aspiring Developer</h2>
+            <h2>Student & Aspiring Developer</h2>
 
-        <p class="description">
-            I'm learning to build websites, applications and digital projects
-            using modern technology.
-        </p>
+            <p class="description">
+                I'm learning to build websites, applications and digital projects
+                using modern technology.
+            </p>
 
-        <div class="home-buttons">
-            <a href="#projects" class="main-button">View My Work</a>
-            <a href="#contact" class="secondary-button">Contact Me</a>
+            <div class="home-buttons">
+                <a href="#projects" class="main-button">View My Work</a>
+                <a href="#contact" class="secondary-button">Contact Me</a>
+            </div>
+
         </div>
 
-    </div>
 
-    <div class="home-image">
-        <div class="image-circle">
-            <img src="profile.jpg" alt="AMMAR">
+        <!-- PROFILE IMAGE -->
+        <div class="home-image">
+
+            <div class="image-circle">
+                <img src="profile.jpg" alt="AMMAR">
+            </div>
+
         </div>
-    </div>
 
-</section>
+    </section>
 
 
     <!-- ABOUT -->
     <section id="about">
+
         <div class="about-content">
 
             <p class="small-text">ABOUT ME</p>
@@ -65,15 +75,61 @@
 
             <p>
                 Hi! My name is AMMAR. I'm currently learning web development
-                and I'm interested in creating websites using HTML, CSS and JavaScript.
+                and I'm interested in creating websites, applications and
+                digital projects.
             </p>
 
         </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <div class="skills-content">
+
+            <p class="small-text">WHAT I LEARN</p>
+
+            <h1>My Skills</h1>
+
+            <div class="skills-container">
+
+                <div class="skill-card">
+                    <h2>HTML</h2>
+                    <p>Website Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>CSS</h2>
+                    <p>Website Design</p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>JavaScript</h2>
+                    <p>Website Interaction</p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>Python</h2>
+                    <p>Programming</p>
+                </div>
+
+                <div class="skill-card">
+                    <h2>Git</h2>
+                    <p>Version Control</p>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
 
     <!-- PROJECTS -->
     <section id="projects">
+
         <div class="projects-content">
 
             <p class="small-text">MY WORK</p>
@@ -83,31 +139,50 @@
             <div class="project-container">
 
                 <div class="project-card">
-                    <h2>Project 1</h2>
-                    <p>My first website using HTML and CSS.</p>
+                    <h2>Portfolio Website</h2>
+
+                    <p>
+                        My personal portfolio website built using HTML,
+                        CSS and JavaScript.
+                    </p>
+
                     <button>View Project</button>
                 </div>
+
 
                 <div class="project-card">
                     <h2>Project 2</h2>
-                    <p>A simple JavaScript project.</p>
+
+                    <p>
+                        A project that I will build while learning
+                        programming.
+                    </p>
+
                     <button>View Project</button>
                 </div>
 
+
                 <div class="project-card">
                     <h2>Project 3</h2>
-                    <p>Something cool that I will build later.</p>
+
+                    <p>
+                        Something interesting that I will create
+                        in the future.
+                    </p>
+
                     <button>View Project</button>
                 </div>
 
             </div>
 
         </div>
+
     </section>
 
 
     <!-- CONTACT -->
     <section id="contact">
+
         <div class="contact-content">
 
             <p class="small-text">GET IN TOUCH</p>
@@ -115,14 +190,16 @@
             <h1>Contact Me</h1>
 
             <p>
-                0148495315
+                You can contact me here.
             </p>
 
         </div>
+
     </section>
 
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
