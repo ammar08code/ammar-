@@ -607,13 +607,13 @@ button:hover {
 .contact-buttons {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 15px;
 }
 
 .contact-button {
     display: inline-block;
-
     padding: 14px 25px;
 
     background: rgba(255, 255, 255, 0.05);
@@ -623,7 +623,6 @@ button:hover {
     border-radius: 10px;
 
     color: white;
-
     text-decoration: none;
 
     transition: 0.3s;
