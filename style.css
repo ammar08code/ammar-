@@ -669,7 +669,7 @@ button:hover {
 .menu-toggle {
     display: none;
 
-    background: none;
+    background: transparent;
     border: none;
 
     color: white;
@@ -678,17 +678,18 @@ button:hover {
     cursor: pointer;
 }
 
+
 /* PHONE */
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 
     nav {
         padding: 0 20px;
-        position: sticky;
     }
 
     .menu-toggle {
         display: block;
+        padding: 5px 10px;
     }
 
     nav ul {
@@ -733,5 +734,47 @@ button:hover {
 
     nav ul li a:hover {
         background: rgba(0, 170, 255, 0.08);
+    }
+
+    #home {
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .home-content h1 {
+        font-size: 50px;
+    }
+
+    .home-content h2 {
+        font-size: 22px;
+    }
+
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .home-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .home-image {
+        flex: none;
+    }
+
+    .image-circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    section h1 {
+        font-size: 40px;
     }
 }
