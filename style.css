@@ -22,7 +22,7 @@ body {
 nav {
     height: 70px;
 
-    background: rgba(15, 20, 40, 0.85);
+    background: rgba(15, 20, 40, 0.65);
 
     display: flex;
     align-items: center;
@@ -36,6 +36,18 @@ nav {
     z-index: 1000;
 
     backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    transition: 0.3s ease;
+}
+
+nav.scrolled {
+    background: rgba(5, 8, 22, 0.95);
+
+    border-bottom: 1px solid rgba(0, 170, 255, 0.25);
+
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 nav h2 {
@@ -60,7 +72,6 @@ nav a {
 nav a:hover {
     color: #00aaff;
 }
-
 
 /* =========================
    GENERAL SECTION

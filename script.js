@@ -16,3 +16,12 @@ const observer = new IntersectionObserver(
 sections.forEach((section) => {
     observer.observe(section);
 });
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+    } else {
+        navbar.classList.remove("scrolled");
+    }
+});
