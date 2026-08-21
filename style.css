@@ -588,3 +588,53 @@ button:hover {
     }
 
 }
+/* =========================
+   CONTACT
+========================= */
+
+.contact-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-description {
+    color: #aaaaaa;
+    font-size: 19px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-button {
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 10px;
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.contact-button:hover {
+    transform: translateY(-5px);
+
+    border-color: #00aaff;
+
+    color: #00aaff;
+
+    box-shadow: 0 10px 30px rgba(0, 170, 255, 0.15);
+}
