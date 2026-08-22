@@ -1,16 +1,22 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>AMMAR's Website</title>
+```
+<title>AMMAR | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+```
+
 </head>
 
 <body>
+
+```
 <!-- NAVBAR -->
 <nav id="navbar">
 
@@ -23,112 +29,124 @@
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 
 </nav>
-    <!-- HOME -->
-    <section id="home">
 
-        <div class="home-content">
 
-            <p class="small-text">WELCOME TO MY WORLD</p>
+<!-- HOME -->
+<section id="home">
 
-            <h1>
-                Hi, I'm <span>AMMAR</span>
-            </h1>
+    <div class="home-content">
 
-            <h2>Student & Aspiring Developer</h2>
+        <p class="small-text">WELCOME TO MY PORTFOLIO</p>
 
-            <p class="description">
-                I'm learning to build websites, applications and digital projects
-                using modern technology.
-            </p>
+        <h1>
+            Hi, I'm <span>AMMAR</span>
+        </h1>
 
-            <div class="home-buttons">
-                <a href="#projects" class="main-button">View My Work</a>
-                <a href="#contact" class="secondary-button">Contact Me</a>
+        <h2>Student & Aspiring Developer</h2>
+
+        <p class="description">
+            I'm a student who is passionate about learning web development
+            and creating digital projects. I enjoy exploring new technologies
+            and improving my skills in programming and design.
+        </p>
+
+        <div class="home-buttons">
+
+            <a href="#projects" class="main-button">
+                View My Work
+            </a>
+
+            <a href="#contact" class="secondary-button">
+                Contact Me
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE IMAGE -->
+    <div class="home-image">
+
+        <div class="image-circle">
+            <img src="profile.jpg" alt="AMMAR">
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section id="about" class="reveal">
+
+    <div class="about-content">
+
+        <p class="small-text">ABOUT ME</p>
+
+        <h1>Who Am I?</h1>
+
+        <p>
+            Hi, I'm AMMAR, a student with a growing interest in
+            programming, web development and technology. I enjoy
+            learning through hands-on projects and continuously
+            improving my technical skills.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="reveal">
+
+    <div class="skills-content">
+
+        <p class="small-text">TECHNICAL SKILLS</p>
+
+        <h1>My Skills</h1>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h2>HTML</h2>
+                <p>Website Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h2>CSS</h2>
+                <p>Website Design</p>
+            </div>
+
+            <div class="skill-card">
+                <h2>JavaScript</h2>
+                <p>Website Interaction</p>
+            </div>
+
+            <div class="skill-card">
+                <h2>Python</h2>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill-card">
+                <h2>Git</h2>
+                <p>Version Control</p>
             </div>
 
         </div>
 
+    </div>
 
-        <!-- PROFILE IMAGE -->
-        <div class="home-image">
-
-            <div class="image-circle">
-                <img src="profile.jpg" alt="AMMAR">
-            </div>
-
-        </div>
-
-    </section>
+</section>
 
 
-    <!-- ABOUT -->
-    <section id="about" class="reveal">
-
-        <div class="about-content">
-
-            <p class="small-text">ABOUT ME</p>
-
-            <h1>Who Am I?</h1>
-
-            <p>
-                Hi! My name is AMMAR. I'm currently learning web development
-                and I'm interested in creating websites, applications and
-                digital projects.
-            </p>
-
-        </div>
-
-    </section>
-
-
-    <!-- SKILLS -->
-    <section id="skills" class="reveal">
-
-        <div class="skills-content">
-
-            <p class="small-text">WHAT I LEARN</p>
-
-            <h1>My Skills</h1>
-
-            <div class="skills-container">
-
-                <div class="skill-card">
-                    <h2>HTML</h2>
-                    <p>Website Structure</p>
-                </div>
-
-                <div class="skill-card">
-                    <h2>CSS</h2>
-                    <p>Website Design</p>
-                </div>
-
-                <div class="skill-card">
-                    <h2>JavaScript</h2>
-                    <p>Website Interaction</p>
-                </div>
-
-                <div class="skill-card">
-                    <h2>Python</h2>
-                    <p>Programming</p>
-                </div>
-
-                <div class="skill-card">
-                    <h2>Git</h2>
-                    <p>Version Control</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- PROJECTS -->
+<!-- PROJECTS -->
 <section id="projects" class="reveal">
 
     <div class="projects-content">
@@ -139,13 +157,15 @@
 
         <div class="project-container">
 
+            <!-- PROJECT 01 -->
             <div class="project-card">
+
                 <div class="project-number">01</div>
 
                 <h2>Personal Portfolio</h2>
 
                 <p>
-                    My first personal portfolio website built using
+                    My personal portfolio website built using
                     HTML, CSS and JavaScript.
                 </p>
 
@@ -155,25 +175,40 @@
                     <span>JavaScript</span>
                 </div>
 
-                <a href="#" class="project-button">View Project</a>
+                <a href="#home" class="project-button">
+                    View Project
+                </a>
+
             </div>
 
 
+            <!-- PROJECT 02 -->
             <div class="project-card">
-                <div class="project-number">03</div>
 
-                <h2>Future Project</h2>
+                <div class="project-number">02</div>
+
+                <h2>PhysQuest</h2>
 
                 <p>
-                    A new project that I plan to build as I continue
-                    learning and improving my skills.
+                    An interactive educational website featuring
+                    physics quizzes and a game based on fundamental
+                    physics concepts.
                 </p>
 
                 <div class="project-tags">
-                    <span>Coming Soon</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Physics</span>
                 </div>
 
-                <a href="#" class="project-button">Coming Soon</a>
+                <a href="https://tiny-haupia-1abb82.netlify.app/"
+                   class="project-button"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Live Demo
+                </a>
+
             </div>
 
         </div>
@@ -182,7 +217,36 @@
 
 </section>
 
-   <!-- CONTACT -->
+
+<!-- EDUCATION -->
+<section id="education" class="reveal">
+
+    <div class="education-content">
+
+        <p class="small-text">MY BACKGROUND</p>
+
+        <h1>Education</h1>
+
+        <div class="education-card">
+
+            <h2>Your School / Institution</h2>
+
+            <p>
+                Your programme or qualification
+            </p>
+
+            <span>
+                Your Year
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT -->
 <section id="contact" class="reveal">
 
     <div class="contact-content">
@@ -198,13 +262,15 @@
 
         <div class="contact-buttons">
 
-            <a href="mailto:ammartharith@gmail.com" class="contact-button">
+            <a href="mailto:ammartharith@gmail.com"
+               class="contact-button">
                 Email Me
             </a>
 
             <a href="https://www.instagram.com/ammrith_?igsi=bG50MHYxNWtzcmd3"
                class="contact-button"
-               target="_blank">
+               target="_blank"
+               rel="noopener noreferrer">
                 Instagram
             </a>
 
@@ -218,7 +284,10 @@
     </div>
 
 </section>
-    <script src="script.js"></script>
+
+
+<script src="script.js"></script>
+```
 
 </body>
 
